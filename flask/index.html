@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Anemia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #ffffff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .about-section {
+            text-align: center;
+        }
+        .about-section h1 {
+            color: #e53935;
+        }
+        .info-cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .info-card {
+            flex: 1 1 calc(25% - 20px);
+            background-color: #fefefe;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .info-card h2 {
+            color: #e53935;
+        }
+        .info-card p {
+            color: #666;
+        }
+        @media (max-width: 768px) {
+            .info-card {
+                flex: 1 1 calc(50% - 20px);
+            }
+        }
+        @media (max-width: 480px) {
+            .info-card {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Anemia</h1>
+        </div>
+       <div class="navbar">
+            <a href="home">Home</a>
+            <a href="">About</a>
+            <a href="predictt">predict</a>
+        </div>
+        <button style="background-color: #e53935; color: #fff; border: none; padding: 10px 20px; border-radius: 5px;">Check</button>
+    </header>
+    <div class="container">
+        <div class="about-section">
+            <h1>About</h1>
+            <p>Anemia: low red blood cells or hemoglobin, causing oxygen shortage. Symptoms: fatigue, weakness, shortness of breath, pale skin. Causes: nutritional deficiencies, diseases, blood loss. Treatments vary.</p>
+        </div>
+        <div class="info-cards">
+            <div class="info-card">
+                <h2>Hemoglobin</h2>
+                <p>Hemoglobin, a protein in red blood cells, transports oxygen and carbon dioxide. Healthy ranges: Men: 13.2-16.6 g/dL. Women: 11.6-15 g/dL.</p>
+            </div>
+            <div class="info-card">
+                <h2>MCH</h2>
+                <p>An MCH value refers to the average quantity of hemoglobin present in a single red blood cell. The normal range for MCH is between 27.5 and 33.2 picograms (pg).</p>
+            </div>
+            <div class="info-card">
+                <h2>MCHC</h2>
+                <p>The mean corpuscular hemoglobin concentration is average concentration of hemoglobin in red blood cells. The normal range: 33.4-35.5g/dL.</p>
+            </div>
+            <div class="info-card">
+                <h2>MCV</h2>
+                <p>MCV stands for mean corpuscular volume. An MCV blood test measures the average size of red blood cells. The normal range for MCV is between 80 to 100 femtoliter.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
